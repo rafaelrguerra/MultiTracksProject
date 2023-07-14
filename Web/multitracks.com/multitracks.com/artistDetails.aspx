@@ -40,15 +40,12 @@
             <nav class="discovery--nav" runat="server" id="filtersHeader">
                 <ul class="discovery--nav--list tab-filter--list u-no-scrollbar">
                     <li class="discovery--nav--list--item tab-filter--item is-active" runat="server" id="overviewFilterLi">
-                        <%--<a class="tab-filter" href="#">Overview</a>--%>
                         <asp:LinkButton class="tab-filter" ID="overviewFilter" runat="server" OnClick="overviewFilter_Click">Overview</asp:LinkButton>
                     </li>
                     <li class="discovery--nav--list--item tab-filter--item" runat="server" id="songsFilterLi">
-                        <%--<a class="tab-filter" href="#topSongs">Songs</a>--%>
                         <asp:LinkButton class="tab-filter" ID="songsFilter" runat="server" OnClick="songsFilter_Click">Songs</asp:LinkButton>
                     </li>
                     <li class="discovery--nav--list--item tab-filter--item" runat="server" id="albumsFilterLi">
-                        <%--<a class="tab-filter" href="#albumsSection">Albums</a>--%>
                         <asp:LinkButton class="tab-filter" ID="albumsFilter" runat="server" OnClick="albumsFilter_Click">Albums</asp:LinkButton>
                     </li>
                 </ul>
@@ -123,7 +120,6 @@
                             <div class="discovery--section--header">
                                 <h2 id="albumsSection">Albums</h2>
                                 <asp:LinkButton class="discovery--section--header--view-all" ID="viewAllAlbumsButton" runat="server" OnClick="viewAllAlbums_Click">View All</asp:LinkButton>
-                                <%--<a class="discovery--section--header--view-all" href="#">View All</a>--%>
                             </div>
                             <!-- /.discovery-select -->
 
