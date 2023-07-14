@@ -36,7 +36,7 @@ To run the project successfully, follow these steps:
 
 2. Run the first scripts (already provided by MultiTracks).
 
-3. Run the new script, GetArtistDetails.sql.
+3. Run the new script, GetArtistDetails.sql. It's in DB/Stored Procedures.
 
 4. Update the database connection string on both the Web Forms project and the API, to point to your database. (Web.config and appsettings.json, respectively)
 
